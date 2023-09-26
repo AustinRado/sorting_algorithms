@@ -33,7 +33,7 @@ in the best case
 in the average case
 in the worst case
 
-3. Quick sort
+## 3. Quick sort
 Write a function that sorts an array of integers in ascending order using the Quick sort algorithm
 
 Prototype: void quick_sort(int *array, size_t size);
