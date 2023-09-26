@@ -15,9 +15,9 @@ bool swapped;
 if (size <= 1 || array == NULL)
 return;
 
-    for (i = 0; i < size - 1; i++)
-    {
-        swapped = false;
+for (i = 0; i < size - 1; i++)
+{
+    swapped = false;
             for (j = 0; j < size - 1 - i; j++)
             {
             if (array[j] > array[j + 1])
@@ -30,6 +30,5 @@ return;
             }
         }
         if (!swapped)
-            break;  // If no swaps occurred, the array is already sorted.
+            break;
     }
-}
