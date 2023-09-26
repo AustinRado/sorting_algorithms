@@ -30,6 +30,6 @@ return;
             }
         }
         if (!swapped)
-            break;  // If no swaps occurred, the array is already sorted.
+            break;
     }
 }
